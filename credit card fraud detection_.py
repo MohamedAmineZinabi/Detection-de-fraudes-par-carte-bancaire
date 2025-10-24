@@ -47,7 +47,6 @@ Conversion Date: 2025-10-23T16:06:46.110Z
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
 from sklearn import metrics
 from sklearn import linear_model
 from sklearn.svm import SVC
@@ -964,6 +963,7 @@ gsearch1.cv_results_, gsearch1.best_params_, gsearch1.best_score_
 #   - **XGB ROC-AUC** 0.9807  
 #   - **Seuil optimal** : 0.0005  
 # 
+
 # Ce modèle XGBoost montre donc une **excellente capacité à détecter les transactions frauduleuses** dans notre dataset.
 # 
 
