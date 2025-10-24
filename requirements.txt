@@ -4,3 +4,6 @@ scikit-learn
 mlflow
 matplotlib
 seaborn
+imblearn
+xgboost
+scipy
